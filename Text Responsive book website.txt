@@ -8,7 +8,7 @@ Home - Featured - Discount - New Books - Testimonial
 
 ========== SEARCH  ==========
 .search__input placeholder
-What are you looking for?
+Apa yang Anda cari?
 
 
 ========== LOGIN ==========
@@ -37,10 +37,7 @@ Browse & <br>
 Select E-Books
 
 .home__description
-Find the best e-books from your favorite 
-writers, explore hundreds of books with all 
-possible categories, take advantage of the 
-50% discount and much more. 
+Temukan e-book terbaik dari penulis favorit Anda, jelajahi ratusan buku dengan semua kategori yang memungkinkan, manfaatkan diskon 50%, dan banyak lagi.
 
 .button
 Explore Now
@@ -48,15 +45,14 @@ Explore Now
 
 ========== SERVICES ==========
 .services__title .services__description
-Free Shipping
-Order More Than $100
+Gratis Ongkos Kirim
+Pesan Lebih dari 200 Ribu
 
-Secure Payment
-100% Secure Payment
+Pembayaran Aman
+Pembayaran 100% Aman
 
-24/7 Support
-Call us anytime
-
+Dukungan 24/7
+Hubungi kami kapan saja
 
 ========== FEATURED ==========
 .section__title
@@ -64,67 +60,66 @@ Featured Books
 
 .featured__title .featured__discount .featured__price
 Featured Book
-$11.99
-$19.99
+Rp200.000
+Rp75.000
 
 .button
-Add To Cart
+Keranjang
 
 
 ========== DISCOUNT ==========
 .section__title
-Up To 50% Discount 
+Diskon Hingga 50%
 
 .discount__description
-Take advantage of the discount days we 
-have for you, buy books from your favorite 
-writers, the more you buy, the more 
-discounts we have for you.
+Manfaatkan hari-hari diskon yang kami
+miliki untuk Anda, beli buku dari
+penulis favorit Anda, semakin banyak Anda membeli, semakin banyak
+diskon yang kami berikan untuk Anda.
 
 .button
-Shop Now
+Beli Sekarang
 
 
 ========== NEW BOOKS ==========
 .section__title
-New Books
+Buku Baru
 
 .new__title .new__discount .new__price
 New Book
-$7.99
-$14.99
+Rp150.000
+Rp80.000
 
 
 ========== JOIN ==========
 .join__title
-Subscribe To Receive <br>
-The Latest Updates
+Berlangganan untuk Menerima <br>
+Pembaruan Terbaru
 
 .join__input placeholder
 Enter email
 
 .join__button
-Subscribe
+Berlangganan
 
 
 ========== TESTIMONIAL ==========
 .section__title
-Customer Opinions
+Pendapat Pelanggan
 
 .testimonial__title .testimonial__description
-Rial Loz
-The best website to buy books, the purchase 
-is very easy to make and has great discounts.
+Yani Pratiwi
+Situs web terbaik untuk membeli buku, pembeliannya sangat mudah dilakukan dan memiliki diskon besar.
 
 
 ========== FOOTER ==========
 .footer__logo
-E-Book
+E-Book Bandung
 
 .footer__description
-Find and explore the best <br>
-eBooks from all your <br>
-favorite writers.
+Temukan dan jelajahi
+eBook terbaik dari semua
+penulis favorit Anda.
 
 footer__title .footer__link
 About
@@ -140,11 +135,11 @@ Company
  Help center
 
 Contact
- Av. Hacienda <br>
- Lima 4321, Perú 
+ Jl. Buah Batu, No.60, Batununggal,<br>
+ Kota Bandung, Jawa Barat 24403
 
- e.book@email.com <br>
- 0987-654-321
+ e.book_bandung@gmail.com
+ 023-654-3211
 
 Social
  https://www.facebook.com/
@@ -152,4 +147,4 @@ Social
  https://twitter.com/
 
 .footer__copy
-&#169; All Rights Reserved By Bedimcode
+&#169; All Rights Reserved By E-Book Bandung

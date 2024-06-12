@@ -1,15 +1,12 @@
-# Responsive Book Website
-## [Watch it on youtube](https://youtu.be/b7eJQSHhuO8)
+# Website e-Book Bandung
 ### Responsive Book Website
 
-- Responsive Book Website Design Using HTML CSS & JavaScript
-- Contains animations when scrolling.
-- Smooth scrolling in each section.
-- Contains a search & login modal.
-- Includes a dark & light theme.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+- Desain Situs Web Buku Responsif Menggunakan HTML CSS & JavaScript
+- Memiliki animasi saat menggulir halaman.
+- Menggunakan pengguliran halus di setiap bagian.
+- Terdapat modal pencarian dan login.
+- Termasuk tema gelap & terang.
+- Dikembangkan pertama dengan metodologi Mobile First, kemudian untuk desktop.
+- Kompatibel dengan semua perangkat mobile dan dengan antarmuka pengguna yang indah dan menyenangkan.
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
-
-![preview img](/preview.png)
+untuk sumber kontent buku hanya sebagai contoh, yang didapatkan di situs gramedia.com
