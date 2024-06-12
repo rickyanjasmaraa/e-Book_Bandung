@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Bandung book-store</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="" class="nav__logo">
+               <i class="ri-book-3-line"></i>E-Book Bandung
+            </a>
+
+            <div class="nav__menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">
+                        <i class="ri-home-line"></i>
+                        <span>Home</span>
+
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#featured" class="nav__link">
+                        <i class="ri-book-3-line"></i>
+                        <span>Featured</span>
+
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#discount" class="nav__link">
+                        <i class="ri-price-tag-3-line"></i>
+                        <span>Discount</span>
+
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#new" class="nav__link">
+                        <i class="ri-bookmark-line"></i>
+                        <span>New Books</span>
+
+                     </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                     <a href="#testimonial" class="nav__link">
+                        <i class="ri-message-3-line"></i>
+                        <span>Testimonial</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="nav__actions">
+               <!-- Search button -->
+               <i class="ri-search-line search-button" id="search-button"></i>
+
+               <!-- Login button -->
+               <i class="ri-user-line login-button" id="login-button"></i>
+
+               <!-- Theme button -->
+               <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== SEARCH ====================-->
+      <div class="search" id="search-content">
+         <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="What are you looking for?" class="search__input">
+         </form>
+
+         <i class="ri-close-line search__close" id="search__close"></i>
+      </div>
+
+      <!--==================== LOGIN ====================-->
+      <div class="login grid" id="login-content">
+         <form action="" class="login__form grid">
+            <h3 class="login__title">Log in</h3>
+
+            <div class="login__group grid">
+               <div>
+                  <label for="login-email" class="login__label">Email</label>
+                  <input type="email" placeholder="Write your email" id="login-email" class="login__input">
+               </div>
+
+               <div>
+                  <label for="login-pass" class="login__label"></label>
+                  <input type="password" placeholder="Enter your password" id="login-pass" class="login__input">
+               </div>
+            </div>
+
+            <div>
+               <span class="login__signup">
+                  You do not have an account? <a href="#">Sign up</a>
+               </span>
+
+               <a href="#" class="login__forgot">
+                  You forgot your password
+               </a>
+
+               <button type="submit" class="login__button button">Log in</button>
+            </div>
+         </form>
+
+         <i class="ri-close-line login__close" id="login__close"></i>
+      </div>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h1 class="home__title">
+                     Telusuri & <br>
+                     Pilih E-Books
+                  </h1>
+
+                  <p class="home__description">
+                     Temukan buku elektronik terbaik dari penulis favorit Anda, jelajahi ratusan buku dengan semua kategori yang memungkinkan, manfaatkan diskon 50%, dan banyak lagi.
+                  </p>
+
+                  <a href="#" class="button">Explore Now</a>
+               </div>
+
+               <div class="home__images">
+                  <div class="home__swiper swiper">
+                     <div class="swiper-wrapper">
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/home-book-1.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/home-book-2.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/home-book-3.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/home-book-4.png" alt="image" class="home__img">
+                        </article>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section">
+            <div class="services__container container grid">
+               <article class="services__card">
+                  <i class="ri-truck-line"></i>
+                  <h3 class="services__title">Gratis Ongkir</h3>
+                  <p class="services__description">Order Lebih Dari 200 Ribu</p>
+               </article>
+
+               <article class="services__card">
+                  <i class="ri-lock-2-line"></i>
+                  <h3 class="services__title">Pembayaran Aman</h3>
+                  <p class="services__description">Pembayaran 100% Aman</p>
+               </article>
+
+               <article class="services__card">
+                  <i class="ri-customer-service-2-line"></i>
+                  <h3 class="services__title">24/7 Support</h3>
+                  <p class="services__description">Hubungi kami kapan saja</p>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== FEATURED ====================-->
+         <section class="featured section" id="featured">
+            <h2 class="section__title">
+               Buku Pilihan
+            </h2>
+
+            <div class="featured__container container">
+               <div class="featured__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/book-1.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Ada Kalanya</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">Rp75.000</span>
+                           <span class="featured__price">Rp150.000</span>
+                        </div>
+
+                        <button class="button">Keranjang</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/book-2.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Kejeniusan Ulama</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">Rp75.000</span>
+                           <span class="featured__price">Rp150.000</span>
+                        </div>
+
+                        <button class="button">Keranjang</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/book-3.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Maafkan Aku Tuhan</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">Rp75.000</span>
+                           <span class="featured__price">Rp150.000</span>
+                        </div>
+
+                        <button class="button">Keranjang</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/book-4.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Mengambil Jeda</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">Rp75.000</span>
+                           <span class="featured__price">Rp150.000</span>
+                        </div>
+
+                        <button class="button">Keranjang</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/book-5.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Harus Melangkah?</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">Rp75.000</span>
+                           <span class="featured__price">Rp150.000</span>
+                        </div>
+
+                        <button class="button">Keranjang</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/book-6.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Chega! I</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">Rp75.000</span>
+                           <span class="featured__price">Rp150.000</span>
+                        </div>
+
+                        <button class="button">Keranjang</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/book-7.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Kopi Sufi</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">Rp75.000</span>
+                           <span class="featured__price">Rp150.000</span>
+                        </div>
+
+                        <button class="button">Keranjang</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/book-8.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Kedai Kopi</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">Rp75.000</span>
+                           <span class="featured__price">Rp150.000</span>
+                        </div>
+
+                        <button class="button">Keranjang</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/book-9.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Gadis Kretek</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">Rp75.000</span>
+                           <span class="featured__price">Rp150.000</span>
+                        </div>
+
+                        <button class="button">Keranjang</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+
+                     <article class="featured__card swiper-slide">
+                        <img src="assets/img/book-10.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Melangkah</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">Rp75.000</span>
+                           <span class="featured__price">Rp150.000</span>
+                        </div>
+
+                        <button class="button">Keranjang</button>
+
+                        <div class="featured__actions">
+                           <button><i class="ri-search-line"></i></button>
+                           <button><i class="ri-heart-3-line"></i></button>
+                           <button><i class="ri-eye-line"></i></button>
+                        </div>
+                     </article>
+                  </div>
+
+                  <div class="swiper-button-prev">
+                     <i class="ri-arrow-left-s-line"></i>
+                  </div>
+
+                  <div class="swiper-button-next">
+                     <i class="ri-arrow-right-s-line"></i>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== DISCOUNT ====================-->
+         <section class="discount section" id="discount">
+            <div class="discount__container container grid">
+               <div class="discount__data">
+                  <h2 class="discount__title section__title">
+                     Diskon Hingga 50%
+                  </h2>
+
+                  <p class="discount__description">
+                     Manfaatkan hari-hari diskon spesial dari kami! Belilah buku dari penulis favorit Anda dan nikmati diskon yang semakin besar dengan setiap pembelian. Semakin banyak Anda membeli, semakin besar diskon yang Anda dapatkan!
+                  </p>
+
+                  <a href="#" class="button">Beli Sekarang</a>
+               </div>
+
+               <div class="discount__images">
+                  <img src="assets/img/discount-book-1.png" alt="image" class="discount__img-1">
+                  <img src="assets/img/discount-book-2.png" alt="image" class="discount__img-2">
+               </div>
+            </div>
+         </section>
+
+         <!--==================== NEW BOOKS ====================-->
+         <section class="new section" id="new">
+            <h2 class="section__title">
+               Buku Terbaru
+            </h2>
+
+            <div class="new__container container">
+               <div class="new__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-top-1.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Fur Immer Dein Ian – Valerie</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp60.000</span>
+                              <span class="new__price">Rp100.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-top-2.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Majnun – Anton Kurnia</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp50.000</span>
+                              <span class="new__price">Rp110.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-top-3.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">I Think I Love You – Cha Mirae</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp70.000</span>
+                              <span class="new__price">Rp120.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-top-4.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Where Stories Begin – Wacaku</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp80.000</span>
+                              <span class="new__price">Rp45.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-top-5.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">172 Days – Nadzira Shafa</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp80.000</span>
+                              <span class="new__price">Rp150.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-top-6.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Terpikat – Ghefira Zakhira</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp75.000</span>
+                              <span class="new__price">Rp130.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-top-7.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Oh My Savior – Washashira</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp100.000</span>
+                              <span class="new__price">Rp60.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-top-8.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Heartbreak Motel</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp100.000</span>
+                              <span class="new__price">Rp170.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-top-9.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Layangan Putus - Momy Asf</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp70.000</span>
+                              <span class="new__price">Rp50.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-top-10.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Dikta dan Hukum</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp70.000</span>
+                              <span class="new__price">Rp90.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="new__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-btm-1.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Bumi Karya Tere Liye</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp60.000</span>
+                              <span class="new__price">Rp100.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-btm-2.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Hujan Karya Tere Liye</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp50.000</span>
+                              <span class="new__price">Rp90.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-btm-3.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Bedebah di Ujung Tanduk</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp80.000</span>
+                              <span class="new__price">Rp130.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-btm-4.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Gadis Minimarket – Sayaka Murata</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp80.000</span>
+                              <span class="new__price">Rp160.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-btm-5.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Ten Years Challenge – Mutriani </h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp70.000</span>
+                              <span class="new__price">Rp100.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-btm-6.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Puya ke Puya – Faisal Oddang</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp60.000</span>
+                              <span class="new__price">Rp110.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-btm-7.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Selamat Tinggal – Selamat Tinggal </h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp50.000</span>
+                              <span class="new__price">Rp80.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-btm-8.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Yang Bertahan dan Binasa Perlahan – Okky Madasari</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp50.000</span>
+                              <span class="new__price">Rp110.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-btm-9.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">Merahnya Merah – Iwan Simatupang</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp70.000</span>
+                              <span class="new__price">Rp90.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+
+                     <a href="#" class="new__card swiper-slide">
+                        <img src="assets/img/new-btm-10.png" alt="image" class="new__img">
+
+                        <div>
+                           <h2 class="new__title">The Age Between Us – Kincirmainan</h2>
+                           <div class="new__prices">
+                              <span class="new__discount">Rp90.000</span>
+                              <span class="new__price">Rp110.000</span>
+                           </div>
+
+                           <div class="new__stars">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-fill"></i>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== JOIN ====================-->
+         <section class="join section">
+            <div class="join__container">
+               <img src="assets/img/join-bg.jpg" alt="image" class="join__bg">
+
+               <div class="join__data container grid">
+                  <h2 class="join__title section__title">
+                     Berlangganan untuk Menerima <br>
+                     Pembaruan Terbaru
+                  </h2>
+
+                  <form action="" class="join__form">
+                     <input type="email" placeholder="Masukan Email" class="join__input">
+                     <button type="submit" class="join__button button">Berlangganan</button>
+                  </form>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== TESTIMONIAL ====================-->
+         <section class="testimonial section" id="testimonial">
+            <h2 class="section__title">
+               Pendapat Pelanggan
+            </h2>
+
+            <div class="testimonial__container container">
+               <div class="testimonial__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <article class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial-perfil-1.png" alt="image" class="testimonial__img">
+
+                        <h2 class="testimonial__title">Yani Pratiwi</h2>
+                        <p class="testimonial__description">
+                           Situs web terbaik untuk membeli buku, pembeliannya sangat mudah dilakukan dan memiliki diskon besar.
+                        </p>
+
+                        <div class="testimonial__stars">
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-half-fill"></i>
+                        </div>
+                     </article>
+
+                     <article class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial-perfil-2.png" alt="image" class="testimonial__img">
+
+                        <h2 class="testimonial__title">Gilang</h2>
+                        <p class="testimonial__description">
+                           Situs web terbaik untuk membeli buku, pembeliannya sangat mudah dilakukan dan memiliki diskon besar.
+                        </p>
+
+                        <div class="testimonial__stars">
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-half-fill"></i>
+                        </div>
+                     </article>
+
+                     <article class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial-perfil-3.png" alt="image" class="testimonial__img">
+
+                        <h2 class="testimonial__title">Rizfa Arizka</h2>
+                        <p class="testimonial__description">
+                           Situs web terbaik untuk membeli buku, pembeliannya sangat mudah dilakukan dan memiliki diskon besar.
+                        </p>
+
+                        <div class="testimonial__stars">
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-half-fill"></i>
+                        </div>
+                     </article>
+
+                     <article class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial-perfil-4.png" alt="image" class="testimonial__img">
+
+                        <h2 class="testimonial__title">Panji Pradana</h2>
+                        <p class="testimonial__description">
+                           Situs web terbaik untuk membeli buku, pembeliannya sangat mudah dilakukan dan memiliki diskon besar.
+                        </p>
+
+                        <div class="testimonial__stars">
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-fill"></i>
+                           <i class="ri-star-half-fill"></i>
+                        </div>
+                     </article>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div>
+               <a href="#" class="footer__logo">
+                  <i class="ri-book-3-line"></i>E-Book Bandung
+               </a>
+
+               <p class="footer__description">
+                  Temukan dan jelajahi <br>
+                  eBook terbaik dari semua <br>
+                  penulis favorit Anda.
+               </p>
+            </div>
+
+            <div class="footer__data grid">
+               <div>
+                  <h3 class="footer__title">About</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="#" class="footer__link">Awards</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">FAQs</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Privacy policy</a>
+                     </li>
+                     
+                     <li>
+                        <a href="#" class="footer__link">Terms of services</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Company</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="#" class="footer__link">Blogs</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Community</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Our team</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Help center</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Contact</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <address class="footer__info">
+                           Jl. Buah Batu, No.60, Batununggal,<br>
+                           Kota Bandung, Jawa Barat  24403
+                        </address>
+                     </li>
+                     <li>
+                        <address class="footer__info">
+                           e.book_bandung@gmail.com <br>
+                           023-654-3211
+                        </address>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Social</h3>
+
+                  <div class="footer__social">
+                     <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+                     </a>
+
+                     <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                     </a>
+
+                     <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-x-line"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <span class="footer__copy">
+            &#169; All Rights Reserved By E-Book Bandung
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
