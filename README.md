@@ -6,7 +6,7 @@
 
   E-Book Bandung adalah situs web toko buku yang sepenuhnya responsif, <br />Responsif untuk semua perangkat, dibuat menggunakan HTML, CSS, dan JavaScript.
 
-  <a href="https://codewithsadee.github.io/foodie/"><strong>➥ Live Demo</strong></a>
+  <a href="https://e-bookbandung.netlify.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
